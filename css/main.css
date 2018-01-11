@@ -1,0 +1,59 @@
+/*Quita los espacios entre rows*/
+
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*Seccion de imagenes*/
+
+img {
+  width: 80%;
+}
+
+div.jumbotron#first-image, div.jumbotron#second-image, div.jumbotron#third-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+div.jumbotron#first-image {
+  background-image: url('../assets/images/panda.jpg');
+  height: 100vh;
+  margin-top: -21px;
+}
+
+div.jumbotron#second-image {
+  background-image: url('../assets/images/panda1.jpg');
+  height: 100vh;
+}
+
+div.jumbotron#third-image {
+  background-image: url('../assets/images/panda2.jpg');
+  height: 100vh;
+}
+
+/*Estilo de imagenes y texto*/
+
+#title {
+  height: 30vh;
+}
+
+#text {
+  margin-top: 80px;
+}
+
+#text>div>div>img {
+  border: 10px solid white;
+}
+
+.about, .pictures {
+  height: 80vh;
+}
+
+/*Borde*/
+
+.border {
+  height: 30px;
+}
